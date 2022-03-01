@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Me</title>
+	<script type="text/javascript" src="JavaScript.js"></script>
+</head>
+<body>
+	<style type="text/css">
+		body{
+			padding: 0;
+			margin: 0;
+			font-family: sans-serif;
+		}
+		.page{
+			
+			background: rgb(142,219,215);
+			background: linear-gradient(142deg, rgba(142,219,215,1) 0%, rgba(255,244,235,1) 92%);
+			background-repeat: no-repeat;
+			display: flex;
+			flex-direction: row;
+			
+			flex-wrap: wrap;
+			height: 100vh;
+
+
+			
+			
+
+		}
+		.logo{
+			padding: 10px;
+			/*border: 1px solid red;*/
+			font-family: cursive;
+			color: #485DA0;
+			text-shadow: 5px 5px 5px #BADAE7;
+			align-self: start;
+			flex: none;
+			
+		}
+		.nav{
+			align-items: center;
+			padding: 10px;
+			padding-left: 5vw;
+			/*border: 1px solid green;*/
+			flex: 1;
+			order: 2;
+			flex-basis: ;
+			align-self: start;
+			
+		}
+		nav h3{
+			padding-right: 30px;
+			float: left;
+		}
+		.main{
+			padding: 10px;
+			padding: 0px 60px;
+			/*border: 1px solid blue;*/
+			flex: ;
+			order: 3;
+			flex-basis: 100%;
+			align-self: start;
+			word-wrap: break-word;
+			
+		}
+		.footer{
+			padding: 10px;
+			padding-left: 10%;
+			/*border: 1px solid silver;*/
+			flex: ;
+			order: 4;
+			flex-basis: 100%;
+			align-self: center;
+			text-align: left;
+
+
+		}
+		.footer span{
+			padding-left: 50px;
+			font-size: 1.2em;
+		}
+	</style>
+	<div class="page">
+		
+		
+		
+		<div class="logo">
+			<h1>My Portfolio</h1>
+		</div>
+		<main class="main">
+			<h2>My Contacts</h2>
+			<h3>Email : macho.mini@mail.ru</h3>
+		</main>
+		<nav class="nav">
+			<h3>Progetcts</h3>
+			<h3>Skills</h3>
+			<h3><a href="ContactPage.html" target="_blank">Contact<a></h3>
+		</nav>
+		<footer class="footer">
+			<span>Progetcts</span>
+			<span>Skills</span>
+			<span><a href="ContactPage.html" target="_blank">Contact<a></span>
+		</footer>
+		
+	
+	</div>
+</body>
+</html>
