@@ -4,7 +4,6 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>About Me</title>
-	<script type="text/javascript" src="JavaScript.js"></script>
 </head>
 <body>
 	<style type="text/css">
@@ -15,8 +14,7 @@
 		}
 		.page{
 			
-			background: rgb(142,219,215);
-			background: linear-gradient(142deg, rgba(142,219,215,1) 0%, rgba(255,244,235,1) 92%);
+			background-color: #E0E7D9;
 			background-repeat: no-repeat;
 			display: flex;
 			flex-direction: row;
@@ -31,7 +29,6 @@
 		}
 		.logo{
 			padding: 10px;
-			/*border: 1px solid red;*/
 			font-family: cursive;
 			color: #485DA0;
 			text-shadow: 5px 5px 5px #BADAE7;
@@ -40,36 +37,63 @@
 			
 		}
 		.nav{
+			margin-top: 10px;
 			align-items: center;
 			padding: 10px;
 			padding-left: 5vw;
-			/*border: 1px solid green;*/
 			flex: 1;
 			order: 2;
-			flex-basis: ;
 			align-self: start;
 			
 		}
 		nav h3{
-			padding-right: 30px;
+			margin-top: 0;
+			margin-right: 10px;
+			padding: 0px 5px;
 			float: left;
+			height: 45px;
+			display: flex;
+			align-items: center;
+			background-color: #CABCD5;
+			border-radius: 7px;
+
+		}
+		.button1{
+			display: flex;
+			align-items: center;
+			color: white;
+			background-color: #000;
+			border-radius: 7px;
+			height: 45px;
+		}
+		.button2{
+			display: flex;
+			align-items: center;
+			color: black;
+			background-color: #fff;
+			border-radius: 7px;
+			height: 45px;
 		}
 		.main{
 			padding: 10px;
 			padding: 0px 60px;
-			/*border: 1px solid blue;*/
-			flex: ;
 			order: 3;
 			flex-basis: 100%;
 			align-self: start;
 			word-wrap: break-word;
 			
 		}
+		.contact1{
+			color: #000;
+			text-decoration: none;
+		}
+		.contact2{
+			color: #000;
+			text-decoration: none;
+		}
 		.footer{
 			padding: 10px;
 			padding-left: 10%;
-			/*border: 1px solid silver;*/
-			flex: ;
 			order: 4;
 			flex-basis: 100%;
 			align-self: center;
@@ -81,6 +105,7 @@
 			padding-left: 50px;
 			font-size: 1.2em;
 		}
+		
 	</style>
 	<div class="page">
 		
@@ -96,15 +121,18 @@
 		<nav class="nav">
 			<h3>Progetcts</h3>
 			<h3>Skills</h3>
-			<h3><a href="ContactPage.html" target="_blank">Contact<a></h3>
+			<h3><a class="contact1" href="ContactPage.html" target="_blank">Contact<a></h3>
+			<h3 class="button1">Night Mode</h3>
+			<h3 class="button2">Light Mode</h3>
 		</nav>
 		<footer class="footer">
 			<span>Progetcts</span>
 			<span>Skills</span>
-			<span><a href="ContactPage.html" target="_blank">Contact<a></span>
+			<span><a class="contact2" href="ContactPage.html" target="_blank">Contact<a></span>
 		</footer>
 		
 	
 	</div>
+	<script type="text/javascript" src="JavaScript.js"></script>
 </body>
 </html>
